@@ -2,8 +2,8 @@ import "../index.css";
 import { useState } from "react";
 
 function Navbar() {
-    const [pagescroll, setPagescroll] = useState(false);
-    
+    const [hasScrolled, sethasScrolled] = false;
+
   return (
     <>
       <div className="navdiv sticky top-0 h-20 w-full bg-gray-800 flex items-center justify-between">
